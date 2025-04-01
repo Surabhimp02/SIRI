@@ -1,0 +1,98 @@
+/* General Page Styling */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8e4c9;
+    color: #5a382d;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8d4a26;
+    color: white;
+    padding: 15px 50px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('madhubani_bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px;
+}
+
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #732c12;
+}
+
+/* Product Section */
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    background-color: #fff4e6;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 150px;
+    border: 2px solid #8d4a26;
+    border-radius: 10px;
+}
+
+/* About & Contact Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#about {
+    background-color: #f5e1c8;
+}
+
+#contact {
+    background-color: #e6ccb2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8d4a26;
+    color: white;
+}
